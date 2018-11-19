@@ -18,6 +18,7 @@ This is a starter template for [Ionic](http://ionicframework.com/docs/) projects
     public backButtonPressed: boolean = false;
     并且
     @ViewChild("myNav") nav: Nav;
-    3、在app.component.ts中的详情请看
-    
+    3、在app.component.ts中的详情请看src/app/app.component.ts
+四、在app.component.html中
+<ion-nav #myNav [root]="rootPage"></ion-nav>
 ```
